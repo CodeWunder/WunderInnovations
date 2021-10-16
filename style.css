@@ -875,12 +875,13 @@ body {
 }
 
 /* Media query */
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 100px) and (max-width: 1200px) {
   .grid[class*="grid-"] {
     grid-template-columns: 1fr 1fr;
   }
   .dd-hero {
     min-height: 400px;
+    min-width: 409px;
   }
   .dd-header, .container {
     width: 90%;
